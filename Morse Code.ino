@@ -16,6 +16,14 @@ void loop() {
       delay(3500);
     }
     if (incomingByte == 'A') {
+      digitalWrite(2, HIGH);
+      digitalWrite(6, HIGH);
+      digitalWrite(11, HIGH);
+      digitalWrite(A0, HIGH);
+      digitalWrite(9, HIGH);
+      digitalWrite(5, HIGH);
+      digitalWrite(7, HIGH);
+      digitalWrite(8, HIGH);
       digitalWrite(ledPin, HIGH);
       delay(500);
       digitalWrite(ledPin, LOW);
@@ -23,9 +31,28 @@ void loop() {
       digitalWrite(ledPin, HIGH);
       delay(1500);
       digitalWrite(ledPin, LOW);
+      digitalWrite(2, LOW);
+      digitalWrite(6, LOW);
+      digitalWrite(11, LOW);
+      digitalWrite(A0, LOW);
+      digitalWrite(9, LOW);
+      digitalWrite(5, LOW);
+      digitalWrite(7, LOW);
+      digitalWrite(8, LOW);
       delay(1500);
     }
     if (incomingByte == 'B') {
+      digitalWrite(10, HIGH);
+      digitalWrite(11, HIGH);
+      digitalWrite(A0, HIGH);
+      digitalWrite(A1, HIGH);
+      digitalWrite(6, HIGH);
+      digitalWrite(7, HIGH);
+      digitalWrite(8, HIGH);
+      digitalWrite(2, HIGH);
+      digitalWrite(3, HIGH);
+      digitalWrite(4, HIGH);
+      digitalWrite(5, HIGH);
       digitalWrite(ledPin, HIGH);
       delay(1500);
       digitalWrite(ledPin, LOW);
@@ -41,9 +68,29 @@ void loop() {
       digitalWrite(ledPin, HIGH);
       delay(500);
       digitalWrite(ledPin, LOW);
+      digitalWrite(10, LOW);
+      digitalWrite(11, LOW);
+      digitalWrite(A0, LOW);
+      digitalWrite(A1, LOW);
+      digitalWrite(6, LOW);
+      digitalWrite(7, LOW);
+      digitalWrite(8, LOW);
+      digitalWrite(2, LOW);
+      digitalWrite(3, LOW);
+      digitalWrite(4, LOW);
+      digitalWrite(5, LOW);
       delay(1500);
     }
     if (incomingByte == 'C') {
+      digitalWrite(10, HIGH);
+      digitalWrite(11, HIGH);
+      digitalWrite(A0, HIGH);
+      digitalWrite(A1, HIGH);
+      digitalWrite(6, HIGH);
+      digitalWrite(2, HIGH);
+      digitalWrite(3, HIGH);
+      digitalWrite(4, HIGH);
+      digitalWrite(5, HIGH);
       digitalWrite(ledPin, HIGH);
       delay(1500);
       digitalWrite(ledPin, LOW);
@@ -59,9 +106,26 @@ void loop() {
       digitalWrite(ledPin, HIGH);
       delay(500);
       digitalWrite(ledPin, LOW);
+      digitalWrite(10, LOW);
+      digitalWrite(11, LOW);
+      digitalWrite(A0, LOW);
+      digitalWrite(A1, LOW);
+      digitalWrite(6, LOW);
+      digitalWrite(2, LOW);
+      digitalWrite(3, LOW);
+      digitalWrite(4, LOW);
+      digitalWrite(5, LOW);
       delay(1500);
     }
     if (incomingByte == 'D') {
+      digitalWrite(10, HIGH);
+      digitalWrite(11, HIGH);
+      digitalWrite(A0, HIGH);
+      digitalWrite(6, HIGH);
+      digitalWrite(9, HIGH);
+      digitalWrite(2, HIGH);
+      digitalWrite(3, HIGH);
+      digitalWrite(4, HIGH);
       digitalWrite(ledPin, HIGH);
       delay(1500);
       digitalWrite(ledPin, LOW);
@@ -73,15 +137,51 @@ void loop() {
       digitalWrite(ledPin, HIGH);
       delay(500);
       digitalWrite(ledPin, LOW);
+      digitalWrite(10, LOW);
+      digitalWrite(11, LOW);
+      digitalWrite(A0, LOW);
+      digitalWrite(6, LOW);
+      digitalWrite(9, LOW);
+      digitalWrite(2, LOW);
+      digitalWrite(3, LOW);
+      digitalWrite(4, LOW);
       delay(1500);
     }
     if (incomingByte == 'E') {
+      digitalWrite(10, HIGH);
+      digitalWrite(11, HIGH);
+      digitalWrite(A0, HIGH);
+      digitalWrite(A1, HIGH);
+      digitalWrite(6, HIGH);
+      digitalWrite(7, HIGH);
+      digitalWrite(2, HIGH);
+      digitalWrite(3, HIGH);
+      digitalWrite(4, HIGH);
+      digitalWrite(5, HIGH);
       digitalWrite(ledPin, HIGH);
       delay(500);
       digitalWrite(ledPin, LOW);
+      digitalWrite(10, LOW);
+      digitalWrite(11, LOW);
+      digitalWrite(A0, LOW);
+      digitalWrite(A1, LOW);
+      digitalWrite(6, LOW);
+      digitalWrite(7, LOW);
+      digitalWrite(2, LOW);
+      digitalWrite(3, LOW);
+      digitalWrite(4, LOW);
+      digitalWrite(5, LOW);
       delay(1500);
     }
     if (incomingByte == 'F') {
+      digitalWrite(10, HIGH);
+      digitalWrite(11, HIGH);
+      digitalWrite(A0, HIGH);
+      digitalWrite(A1, HIGH);
+      digitalWrite(6, HIGH);
+      digitalWrite(7, HIGH);
+      digitalWrite(8, HIGH);
+      digitalWrite(2, HIGH);
       digitalWrite(ledPin, HIGH);
       delay(500);
       digitalWrite(ledPin, LOW);
@@ -97,9 +197,28 @@ void loop() {
       digitalWrite(ledPin, HIGH);
       delay(500);
       digitalWrite(ledPin, LOW);
+      digitalWrite(10, LOW);
+      digitalWrite(11, LOW);
+      digitalWrite(A0, LOW);
+      digitalWrite(A1, LOW);
+      digitalWrite(6, LOW);
+      digitalWrite(7, LOW);
+      digitalWrite(8, LOW);
+      digitalWrite(2, LOW);
       delay(1500);
     }
     if (incomingByte == 'G') {
+      digitalWrite(10, HIGH);
+      digitalWrite(11, HIGH);
+      digitalWrite(A0, HIGH);
+      digitalWrite(A1, HIGH);
+      digitalWrite(6, HIGH);
+      digitalWrite(8, HIGH);
+      digitalWrite(9, HIGH);
+      digitalWrite(2, HIGH);
+      digitalWrite(3, HIGH);
+      digitalWrite(4, HIGH);
+      digitalWrite(5, HIGH);
       digitalWrite(ledPin, HIGH);
       delay(1500);
       digitalWrite(ledPin, LOW);
@@ -111,9 +230,28 @@ void loop() {
       digitalWrite(ledPin, HIGH);
       delay(500);
       digitalWrite(ledPin, LOW);
+      digitalWrite(10, LOW);
+      digitalWrite(11, LOW);
+      digitalWrite(A0, LOW);
+      digitalWrite(A1, LOW);
+      digitalWrite(6, LOW);
+      digitalWrite(8, LOW);
+      digitalWrite(9, LOW);
+      digitalWrite(2, LOW);
+      digitalWrite(3, LOW);
+      digitalWrite(4, LOW);
+      digitalWrite(5, LOW);
       delay(1500);
     }
     if (incomingByte == 'H') {
+      digitalWrite(10, HIGH);
+      digitalWrite(A1, HIGH);
+      digitalWrite(6, HIGH);
+      digitalWrite(7, HIGH);
+      digitalWrite(8, HIGH);
+      digitalWrite(9, HIGH);
+      digitalWrite(2, HIGH);
+      digitalWrite(5, HIGH);
       digitalWrite(ledPin, HIGH);
       delay(500);
       digitalWrite(ledPin, LOW);
@@ -129,9 +267,24 @@ void loop() {
       digitalWrite(ledPin, HIGH);
       delay(500);
       digitalWrite(ledPin, LOW);
+      digitalWrite(10, LOW);
+      digitalWrite(A1, LOW);
+      digitalWrite(6, LOW);
+      digitalWrite(7, LOW);
+      digitalWrite(8, LOW);
+      digitalWrite(9, LOW);
+      digitalWrite(2, LOW);
+      digitalWrite(5, LOW);
       delay(1500);
     }
     if (incomingByte == 'I') {
+      digitalWrite(10, HIGH);
+      digitalWrite(11, HIGH);
+      digitalWrite(A0, HIGH);
+      digitalWrite(7, HIGH);
+      digitalWrite(2, HIGH);
+      digitalWrite(3, HIGH);
+      digitalWrite(4, HIGH);
       digitalWrite(ledPin, HIGH);
       delay(500);
       digitalWrite(ledPin, LOW);
@@ -139,9 +292,22 @@ void loop() {
       digitalWrite(ledPin, HIGH);
       delay(500);
       digitalWrite(ledPin, LOW);
+      digitalWrite(10, LOW);
+      digitalWrite(11, LOW);
+      digitalWrite(A0, LOW);
+      digitalWrite(7, LOW);
+      digitalWrite(2, LOW);
+      digitalWrite(3, LOW);
+      digitalWrite(4, LOW);
       delay(1500);
     }
     if (incomingByte == 'J') {
+      digitalWrite(11, HIGH);
+      digitalWrite(A0, HIGH);
+      digitalWrite(A1, HIGH);
+      digitalWrite(8, HIGH);
+      digitalWrite(3, HIGH);
+      digitalWrite(4, HIGH);
       digitalWrite(ledPin, HIGH);
       delay(500);
       digitalWrite(ledPin, LOW);
@@ -157,9 +323,23 @@ void loop() {
       digitalWrite(ledPin, HIGH);
       delay(1500);
       digitalWrite(ledPin, LOW);
+      digitalWrite(11, LOW);
+      digitalWrite(A0, LOW);
+      digitalWrite(A1, LOW);
+      digitalWrite(8, LOW);
+      digitalWrite(3, LOW);
+      digitalWrite(4, LOW);
       delay(1500);
     }
     if (incomingByte == 'K') {
+      digitalWrite(10, HIGH);
+      digitalWrite(A0, HIGH);
+      digitalWrite(A1, HIGH);
+      digitalWrite(6, HIGH);
+      digitalWrite(7, HIGH);
+      digitalWrite(2, HIGH);
+      digitalWrite(4, HIGH);
+      digitalWrite(5, HIGH);
       digitalWrite(ledPin, HIGH);
       delay(1500);
       digitalWrite(ledPin, LOW);
@@ -171,9 +351,22 @@ void loop() {
       digitalWrite(ledPin, HIGH);
       delay(1500);
       digitalWrite(ledPin, LOW);
+      digitalWrite(10, LOW);
+      digitalWrite(A0, LOW);
+      digitalWrite(A1, LOW);
+      digitalWrite(6, LOW);
+      digitalWrite(7, LOW);
+      digitalWrite(2, LOW);
+      digitalWrite(4, LOW);
+      digitalWrite(5, LOW);
       delay(1500);
     }
     if (incomingByte == 'L') {
+      digitalWrite(10, HIGH);
+      digitalWrite(6, HIGH);
+      digitalWrite(2, HIGH);
+      digitalWrite(3, HIGH);
+      digitalWrite(4, HIGH);
       digitalWrite(ledPin, HIGH);
       delay(500);
       digitalWrite(ledPin, LOW);
@@ -189,9 +382,21 @@ void loop() {
       digitalWrite(ledPin, HIGH);
       delay(500);
       digitalWrite(ledPin, LOW);
+      digitalWrite(10, LOW);
+      digitalWrite(6, LOW);
+      digitalWrite(2, LOW);
+      digitalWrite(3, LOW);
+      digitalWrite(4, LOW);
       delay(1500);
     }
     if (incomingByte == 'M') {
+      digitalWrite(10, HIGH);
+      digitalWrite(A0, HIGH);
+      digitalWrite(6, HIGH);
+      digitalWrite(7, HIGH);
+      digitalWrite(8, HIGH);
+      digitalWrite(2, HIGH);
+      digitalWrite(4, HIGH);
       digitalWrite(ledPin, HIGH);
       delay(1500);
       digitalWrite(ledPin, LOW);
@@ -199,9 +404,23 @@ void loop() {
       digitalWrite(ledPin, HIGH);
       delay(1500);
       digitalWrite(ledPin, LOW);
+      digitalWrite(10, LOW);
+      digitalWrite(A0, LOW);
+      digitalWrite(6, LOW);
+      digitalWrite(7, LOW);
+      digitalWrite(8, LOW);
+      digitalWrite(2, LOW);
+      digitalWrite(4, LOW);
       delay(1500);
     }
     if (incomingByte == 'N') {
+      digitalWrite(11, HIGH);
+      digitalWrite(A1, HIGH);
+      digitalWrite(7, HIGH);
+      digitalWrite(8, HIGH);
+      digitalWrite(9, HIGH);
+      digitalWrite(3, HIGH);
+      digitalWrite(5, HIGH);
       digitalWrite(ledPin, HIGH);
       delay(1500);
       digitalWrite(ledPin, LOW);
@@ -209,9 +428,24 @@ void loop() {
       digitalWrite(ledPin, HIGH);
       delay(500);
       digitalWrite(ledPin, LOW);
+      digitalWrite(11, LOW);
+      digitalWrite(A1, LOW);
+      digitalWrite(7, LOW);
+      digitalWrite(8, LOW);
+      digitalWrite(9, LOW);
+      digitalWrite(3, LOW);
+      digitalWrite(5, LOW);
       delay(1500);
     }
     if (incomingByte == 'O') {
+      digitalWrite(10, HIGH);
+      digitalWrite(11, HIGH);
+      digitalWrite(A0, HIGH);
+      digitalWrite(6, HIGH);
+      digitalWrite(8, HIGH);
+      digitalWrite(2, HIGH);
+      digitalWrite(3, HIGH);
+      digitalWrite(4, HIGH);
       digitalWrite(ledPin, HIGH);
       delay(1500);
       digitalWrite(ledPin, LOW);
@@ -223,9 +457,24 @@ void loop() {
       digitalWrite(ledPin, HIGH);
       delay(1500);
       digitalWrite(ledPin, LOW);
+      digitalWrite(10, LOW);
+      digitalWrite(11, LOW);
+      digitalWrite(A0, LOW);
+      digitalWrite(6, LOW);
+      digitalWrite(8, LOW);
+      digitalWrite(2, LOW);
+      digitalWrite(3, LOW);
+      digitalWrite(4, LOW);
       delay(1500);
     }
     if (incomingByte == 'P') {
+      digitalWrite(10, HIGH);
+      digitalWrite(11, HIGH);
+      digitalWrite(A0, HIGH);
+      digitalWrite(6, HIGH);
+      digitalWrite(7, HIGH);
+      digitalWrite(8, HIGH);
+      digitalWrite(2, HIGH);
       digitalWrite(ledPin, HIGH);
       delay(500);
       digitalWrite(ledPin, LOW);
@@ -241,9 +490,23 @@ void loop() {
       digitalWrite(ledPin, HIGH);
       delay(500);
       digitalWrite(ledPin, LOW);
+      digitalWrite(10, LOW);
+      digitalWrite(11, LOW);
+      digitalWrite(A0, LOW);
+      digitalWrite(6, LOW);
+      digitalWrite(7, LOW);
+      digitalWrite(8, LOW);
+      digitalWrite(2, LOW);
       delay(1500);
     }
     if (incomingByte == 'Q') {
+      digitalWrite(11, HIGH);
+      digitalWrite(A0, HIGH);
+      digitalWrite(A1, HIGH);
+      digitalWrite(7, HIGH);
+      digitalWrite(8, HIGH);
+      digitalWrite(9, HIGH);
+      digitalWrite(5, HIGH);
       digitalWrite(ledPin, HIGH);
       delay(1500);
       digitalWrite(ledPin, LOW);
@@ -259,9 +522,25 @@ void loop() {
       digitalWrite(ledPin, HIGH);
       delay(1500);
       digitalWrite(ledPin, LOW);
+      digitalWrite(11, LOW);
+      digitalWrite(A0, LOW);
+      digitalWrite(A1, LOW);
+      digitalWrite(7, LOW);
+      digitalWrite(8, LOW);
+      digitalWrite(9, LOW);
+      digitalWrite(5, LOW);
       delay(1500);
     }
     if (incomingByte == 'R') {
+      digitalWrite(10, HIGH);
+      digitalWrite(11, HIGH);
+      digitalWrite(A0, HIGH);
+      digitalWrite(6, HIGH);
+      digitalWrite(7, HIGH);
+      digitalWrite(8, HIGH);
+      digitalWrite(2, HIGH);
+      digitalWrite(4, HIGH);
+      digitalWrite(5, HIGH);
       digitalWrite(ledPin, HIGH);
       delay(500);
       digitalWrite(ledPin, LOW);
@@ -273,9 +552,27 @@ void loop() {
       digitalWrite(ledPin, HIGH);
       delay(500);
       digitalWrite(ledPin, LOW);
+      digitalWrite(10, LOW);
+      digitalWrite(11, LOW);
+      digitalWrite(A0, LOW);
+      digitalWrite(6, LOW);
+      digitalWrite(7, LOW);
+      digitalWrite(8, LOW);
+      digitalWrite(2, LOW);
+      digitalWrite(4, LOW);
+      digitalWrite(5, LOW);
       delay(1500);
     }
     if (incomingByte == 'S') {
+      digitalWrite(10, HIGH);
+      digitalWrite(11, HIGH);
+      digitalWrite(A0, HIGH);
+      digitalWrite(6, HIGH);
+      digitalWrite(7, HIGH);
+      digitalWrite(8, HIGH);
+      digitalWrite(2, HIGH);
+      digitalWrite(3, HIGH);
+      digitalWrite(4, HIGH);
       digitalWrite(ledPin, HIGH);
       delay(500);
       digitalWrite(ledPin, LOW);
@@ -287,15 +584,41 @@ void loop() {
       digitalWrite(ledPin, HIGH);
       delay(500);
       digitalWrite(ledPin, LOW);
+      digitalWrite(10, LOW);
+      digitalWrite(11, LOW);
+      digitalWrite(A0, LOW);
+      digitalWrite(6, LOW);
+      digitalWrite(7, LOW);
+      digitalWrite(8, LOW);
+      digitalWrite(2, LOW);
+      digitalWrite(3, LOW);
+      digitalWrite(4, LOW);
       delay(1500);
     }
     if (incomingByte == 'T') {
+      digitalWrite(10, HIGH);
+      digitalWrite(11, HIGH);
+      digitalWrite(A0, HIGH);
+      digitalWrite(7, HIGH);
+      digitalWrite(3, HIGH);
       digitalWrite(ledPin, HIGH);
       delay(1500);
       digitalWrite(ledPin, LOW);
+      digitalWrite(10, LOW);
+      digitalWrite(11, LOW);
+      digitalWrite(A0, LOW);
+      digitalWrite(7, LOW);
+      digitalWrite(3, LOW);
       delay(1500);
     }
     if (incomingByte == 'U') {
+      digitalWrite(10, HIGH);
+      digitalWrite(A0, HIGH);
+      digitalWrite(6, HIGH);
+      digitalWrite(8, HIGH);
+      digitalWrite(2, HIGH);
+      digitalWrite(3, HIGH);
+      digitalWrite(4, HIGH);
       digitalWrite(ledPin, HIGH);
       delay(500);
       digitalWrite(ledPin, LOW);
@@ -307,9 +630,21 @@ void loop() {
       digitalWrite(ledPin, HIGH);
       delay(1500);
       digitalWrite(ledPin, LOW);
+      digitalWrite(10, LOW);
+      digitalWrite(A0, LOW);
+      digitalWrite(6, LOW);
+      digitalWrite(8, LOW);
+      digitalWrite(2, LOW);
+      digitalWrite(3, LOW);
+      digitalWrite(4, LOW);
       delay(1500);
     }
     if (incomingByte == 'V') {
+      digitalWrite(10, HIGH);
+      digitalWrite(A0, HIGH);
+      digitalWrite(6, HIGH);
+      digitalWrite(8, HIGH);
+      digitalWrite(3, HIGH);
       digitalWrite(ledPin, HIGH);
       delay(500);
       digitalWrite(ledPin, LOW);
@@ -325,9 +660,21 @@ void loop() {
       digitalWrite(ledPin, HIGH);
       delay(1500);
       digitalWrite(ledPin, LOW);
+      digitalWrite(10, LOW);
+      digitalWrite(A0, LOW);
+      digitalWrite(6, LOW);
+      digitalWrite(8, LOW);
+      digitalWrite(3, LOW);
       delay(1500);
     }
     if (incomingByte == 'W') {
+      digitalWrite(10, HIGH);
+      digitalWrite(A0, HIGH);
+      digitalWrite(6, HIGH);
+      digitalWrite(7, HIGH);
+      digitalWrite(8, HIGH);
+      digitalWrite(2, HIGH);
+      digitalWrite(4, HIGH);
       digitalWrite(ledPin, HIGH);
       delay(500);
       digitalWrite(ledPin, LOW);
@@ -339,9 +686,22 @@ void loop() {
       digitalWrite(ledPin, HIGH);
       delay(1500);
       digitalWrite(ledPin, LOW);
+      digitalWrite(10, LOW);
+      digitalWrite(A0, LOW);
+      digitalWrite(6, LOW);
+      digitalWrite(7, LOW);
+      digitalWrite(8, LOW);
+      digitalWrite(2, LOW);
+      digitalWrite(4, LOW);
       delay(1500);
     }
     if (incomingByte == 'X') {
+      digitalWrite(10, HIGH);
+      digitalWrite(A1, HIGH);
+      digitalWrite(7, HIGH);
+      digitalWrite(8, HIGH);
+      digitalWrite(2, HIGH);
+      digitalWrite(5, HIGH);
       digitalWrite(ledPin, HIGH);
       delay(1500);
       digitalWrite(ledPin, LOW);
@@ -357,9 +717,19 @@ void loop() {
       digitalWrite(ledPin, HIGH);
       delay(1500);
       digitalWrite(ledPin, LOW);
+      digitalWrite(10, LOW);
+      digitalWrite(A1, LOW);
+      digitalWrite(7, LOW);
+      digitalWrite(8, LOW);
+      digitalWrite(2, LOW);
+      digitalWrite(5, LOW);
       delay(1500);
     }
     if (incomingByte == 'Y') {
+      digitalWrite(10, HIGH);
+      digitalWrite(A0, HIGH);
+      digitalWrite(7, HIGH);
+      digitalWrite(3, HIGH);
       digitalWrite(ledPin, HIGH);
       delay(1500);
       digitalWrite(ledPin, LOW);
@@ -375,9 +745,20 @@ void loop() {
       digitalWrite(ledPin, HIGH);
       delay(1500);
       digitalWrite(ledPin, LOW);
+      digitalWrite(10, LOW);
+      digitalWrite(A0, LOW);
+      digitalWrite(7, LOW);
+      digitalWrite(3, LOW);
       delay(1500);
     }
     if (incomingByte == 'Z') {
+      digitalWrite(10, HIGH);
+      digitalWrite(11, HIGH);
+      digitalWrite(A0, HIGH);
+      digitalWrite(7, HIGH);
+      digitalWrite(2, HIGH);
+      digitalWrite(3, HIGH);
+      digitalWrite(4, HIGH);
       digitalWrite(ledPin, HIGH);
       delay(1500);
       digitalWrite(ledPin, LOW);
@@ -393,6 +774,13 @@ void loop() {
       digitalWrite(ledPin, HIGH);
       delay(500);
       digitalWrite(ledPin, LOW);
+      digitalWrite(10, LOW);
+      digitalWrite(11, LOW);
+      digitalWrite(A0, LOW);
+      digitalWrite(7, LOW);
+      digitalWrite(2, LOW);
+      digitalWrite(3, LOW);
+      digitalWrite(4, LOW);
       delay(1500);
     }
   }
